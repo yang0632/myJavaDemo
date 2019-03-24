@@ -12,6 +12,7 @@ public class CopyText {
     public static void main(String[] args) {
         FileWriter fw = null;
         FileReader fr = null;
+
         try {
             fw = new FileWriter("sysdemo_copy,txt");
             fr = new FileReader("sysdemo.java");

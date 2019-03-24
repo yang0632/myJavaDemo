@@ -11,4 +11,13 @@ public class FileDemo {
         File f = new File("a.txt");
         File f1 = new File("c:\\abc","b.txt");
     }
+
+    public static void method(){
+        File f = new File("file.txt");
+
+        //创建文件夹
+        File dir = new File("abc\\kkk\\aa\\cc\\dd");
+
+
+    }
 }
